@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <style>
+        body {
+            font-family: Roboto;
+            margin: 0;
+            background-color: black;
+        }
+
+        .hero {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .overlay p {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+
+        .social-icons i {
+            font-size: 20px;
+            color: #fff;
+            margin: 0 10px;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 80vh;
+        }
+
+        .profile {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+           margin: 10px;
+           background-color: rgba(49, 49, 49, 0.675);
+        }
+
+        .column li
+        {
+            color: rgb(141, 141, 141);
+            font-size: 30px;
+        }
+        .column h2,
+        .column p {
+            font-family: 'Roboto', sans-serif; 
+            margin: 5px 0;
+            color: rgb(255, 255, 255);
+        }
+
+.about{
+color: blanchedalmond;
+text-align:center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size:70px;
+padding:40px 20px;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 767px) {
+    .hero img {
+        height: auto;
+    }
+
+    .overlay p {
+        font-size: 40px;
+    }
+
+    .social-icons i {
+        font-size: 16px;
+    }
+}
+/* Media Query for Mobile */
+@media (max-width: 767px) {
+    .hero img {
+        height: auto;
+    }
+
+    .overlay p {
+        font-size: 40px;
+    }
+
+    .social-icons i {
+        font-size: 16px;
+    }
+
+    .profile {
+        flex-direction: column; /* Stack columns vertically */
+    }
+
+    .column {
+        width: 100%; /* Make columns full width */
+        margin: 0; /* Remove margin */
+        padding: 10px; /* Adjust padding */
+    }
+}
+
+
+/* Media Query for Mobile */
+@media (max-width: 767px) {
+    .hero img {
+        height: auto;
+    }
+
+    .overlay p {
+        font-size: 40px;
+    }
+
+    .social-icons i {
+        font-size: 16px;
+    }
+
+    .profile {
+        flex-direction: column; /* Stack columns vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+    }
+
+    .column {
+        width: 100%; /* Make columns full width */
+        margin: 0; /* Remove margin */
+        padding: 10px; /* Adjust padding */
+    }
+}
+
+/* Media Query for Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero img {
+        height: auto;
+    }
+}
+
+/* Media Query for Desktop */
+@media (min-width: 1024px) {
+    /* Add any specific styles for desktop here */
+}
+
+ </style>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="overlay">
+            <p>RENIEL ABONG</p>
+            </div>
+        </div>
+        <img src="https://cdn.wallpapersafari.com/82/81/pojgnM.jpg" alt="Buildings">
+    </header>
+         <section class="about">ABOUT ME</section>
+            <section class="profile">
+            <div class="column">
+                <h2>PERSONAL INFO</h2>
+                <p><b>Name:</b><br>Reniel Abong</p>
+                <p><b>Email:</b><br> Abongreniel_bsit@plmun.edu.ph</p>
+                <p><b>Location:</b><br> Las Pinas City</p>
+                <p><b>Contact:</b><br> 09859094066</p>
+            </div>
+
+        <div class="column">
+            <h2>Educational Background</h2>
+            <p><b>TERTIARY</b></p>
+            <p>University: PLMUN</p>
+	        <p><b>SECONDARY</b></p>
+            <p>School: Lydia aguilar Senior High</p>
+            <p><b>PRIMARY</b></p>
+            <p>School: Dona josef Senior Highschool</p>
+        </div>
+
+        <div class="column">
+            <h2>Technical Skills</h2>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Digital Arts</li>
+            <br>
+    <h2>Hobbies</h2>
+    <p>Badminton,Watching Anime,Drawing,Reading Books,</p>
+    <a href ="index.html" type="button" class="btn btn-outline-danger">Back</a>
+            </div>
+        </section>
+    </body>
+
+    </html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <style>
+        body {
+            font-family: Roboto;
+            margin: 0;
+            background-color: black;
+        }
+
+        .btn {
+            justify-content: center;
+        }
+
+        .bi,
+        .social-icons i {
+                font-size: 30px;
+                color:blueviolet;
+                padding: 8px;
+                
+            }
+
+
+        .hero {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+
+        .overlay p {
+            font-size: 60px;
+            margin-bottom: 10px;
+            color: azure;
+        }
+
+        .social-icons i {
+            font-size: 40px; /* Adjusted icon size */
+            color: #fff;
+            margin: 0 10px;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 80vh;
+        }
+
+        .profile {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+            margin: 10px;
+            background-color: rgba(247, 135, 23, 0.368);
+        }
+
+        .column li {
+            color: rgb(141, 141, 141);
+            font-size: 30px;
+        }
+
+        h3,
+        h2 {
+            color: #fff;
+            font-size: 30px;
+        }
+
+        p {
+            color: #fff;
+        }
+
+
+        .about {
+            color: blanchedalmond;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 70px;
+            padding: 40px 20px;
+        }
+
+        /* Media Queries */
+        @media (max-width: 767px) {
+            .hero img {
+                height: auto;
+            }
+
+            .overlay p {
+                font-size: 40px;
+            }
+
+            .profile {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .hero img {
+                height: auto;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            /* Add specific styles for desktop here */
+        }
+
+        .Maintxt {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 50px;
+            text-shadow: 0 0 10px #ff00ff, 0 0 20px #7b00ff, 0 0 30px #ff00ff;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="overlay">
+            <p class="Maintxt">SOCIAL MEDIA</p>
+            <div class="social-icons">
+                <a href="More.html" type="bi" class="bi bi-messenger"></a>
+                <a href="More.html" type="bi" class="bi bi-facebook"></a>
+                <a href="More.html" type="bi" class="bi bi-instagram"></a>
+            </div>
+        </div>
+        <img src="https://wallpapercave.com/wp/wp5247220.jpg"
+            alt="Buildings">
+    </header>
+    <section class="about">MORE INFO</section>
+    <section class="profile">
+        <div class="column-center">
+            <h3><b>CONTACT</b></h3>
+                <h3>PH +639859094066<br></h3><br><br>
+        <div class="Container">
+            <h2>📩 Need more information? Feel free to message me!
+
+                Whether you have questions, need clarification, or simply want to know more, I'm here to help. Don't hesitate to send me a message, and I'll get back to you as soon as possible with the information you need.
+                </h2>
+                <h2><br>
+                    📞 Contact Me
+                
+                If you prefer a direct conversation, you can also reach me by phone or email. I'm available to assist you and provide the support you're looking for.
+                
+                Phone: [Your Phone Number]
+                
+                Email: [Your Email Address]
+                
+                Feel free to get in touch anytime. Looking forward to assisting you!
+                </h2>
+
+        </div>
+
+            <a href="index.html" type="button" class="btn btn-outline-danger">Back</a>
+        </div>
+    </section>
+</body>
+
+</html>
